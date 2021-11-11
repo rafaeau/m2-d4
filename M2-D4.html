@@ -32,6 +32,39 @@
     />
   </head>
   <body>
+    <div class="container mt-4">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="input-group mb-3">
+            <input type="text" id="insert-name" class="form-control" placeholder="Insert name" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button" id="button-addon2">Add to list</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4" id="waiting-list"></div>
+
+        <div class="col-4">
+          <div class="input-group mb-3">
+            <input type="text" id="insert-number" class="form-control" placeholder="Number of teams" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button" id="button-addon2">Generate teams</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-12" id="teams-area">
+
+        </div>
+      </div>
+    </div>
+
+
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
