@@ -19,6 +19,24 @@ const clearName = function (event) {
 let clearInput = document.getElementById("btn-add")
 clearInput.addEventListener("click", clearName)
 
+
+const getNumber = function (event) {
+    let number = document.getElementById("insert-number")
+    let numberChoice = number.value
+    console.log(numberChoice)
+}
+
+let addNumber = document.getElementById("btn-number")
+addNumber.addEventListener("click", getNumber)
+
+const clearNumber = function (event) {
+    let numberToGet = document.getElementById("insert-number")
+    numberToGet.value = ""
+}
+
+let clearNumberInput = document.getElementById("btn-number")
+clearNumberInput.addEventListener("click", clearNumber)
+
 window.onload = function () {
 
 }
